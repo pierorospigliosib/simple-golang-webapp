@@ -33,6 +33,7 @@ func formatTextToHTML(text string) string {
 				</head>
 				<body>
 					<div class="card">
+						<h1>App works...</h1>
 						<h3>Value of TEST_ENV_TEST:</h3>
 						<p>` + text + `</p>
 					</div>
