@@ -1,11 +1,11 @@
 provider "google" {
-  project = "your-gcp-project-id" 
-  region  = "us-central1"
+  project = "gcp-sg-testpipeline" 
+  region  = "europe-west1"
 }
 
 resource "google_cloud_run_service" "default" {
   name     = "simple-golang-webapp"
-  location = "us-central1"
+  location = "europe-west1"
 
   template {
     spec {

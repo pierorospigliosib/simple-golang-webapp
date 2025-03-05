@@ -1,0 +1,6 @@
+**/terraform.lock.hcl
+**/.terraform/
+**/out.prd.plan
+.terraform.lock.hcl
+out.prd.plan
+*terraform*
